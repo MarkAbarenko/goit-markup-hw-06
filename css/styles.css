@@ -929,7 +929,6 @@ textarea {
   margin: auto;
 }
 .doc{
-  position: relative;
   padding-left: 2px;
   color: var(--accent-color);
 }
