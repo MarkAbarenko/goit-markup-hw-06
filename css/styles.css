@@ -608,13 +608,15 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
 }
 .subscription-button:focus,
 .subscription-button:hover {
   background-color: var(--color-button-act);
 }
+
 .writing-icon{
-display: inline-block;
+  margin-left: 9px;
   width: 24px;
   height: 24px;
   fill: var(--primary-bt-color);
@@ -925,4 +927,9 @@ textarea {
 .modal-form > .button {
   display: flex;
   margin: auto;
+}
+.doc{
+  position: relative;
+  padding-left: 2px;
+  color: var(--accent-color);
 }
